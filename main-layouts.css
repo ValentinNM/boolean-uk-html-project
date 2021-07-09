@@ -23,7 +23,7 @@ body {
 
   /* Header */
   header {
-      background-color: lightpink;
+      background-color: lemonchiffon;
       height: 60px;
   
   }
@@ -87,7 +87,7 @@ div li {
   /* Feed Content */
 
   .scroll-section {
-    height: calc(100vh - 160px);
+    height: calc(100vh - 351px);
 
     /* overflow: scroll; */
     overflow-y: scroll;
@@ -151,12 +151,12 @@ div li {
   /* Footer */
   footer {
     padding: 1rem;
-    background-color: wheat;
+    background-color: lemonchiffon;
   }
 
   .three-column-grid_lists {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
   }
 
@@ -166,9 +166,18 @@ div li {
 
   }
 
-  .two-row-grid { 
-    display: grid;
-    align-items: center;
+  .center-align { 
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .center-align a { 
+    font-size: 25px;
+  }
+  
+  .center-align h4 { 
+    font-size: 30px;
   }
 
   .two-row-grid img {
@@ -227,4 +236,12 @@ div li {
   align-items: center;
   color: gray;
   
+}
+
+.maps-container { 
+  border-radius: 10px;
+}
+
+.gap { 
+  gap: 10px;
 }
