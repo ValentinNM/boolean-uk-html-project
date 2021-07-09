@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container { 
+    display: grid; 
+    grid-template-columns: 200px 1fr;
+}
+
+aside {
+    background-color: aqua;
+}
+
+ul { 
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.expand-main { 
+    background-color: blueviolet;
+}

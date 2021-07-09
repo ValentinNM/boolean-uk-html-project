@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-layouts.css">
+    <title>Gymbuddy</title>
+
+</head>
+<body>
+    <header class="header">
+            <div class="logo">
+                <a href="/main.html">
+                    <img  src="/Assets/Gymder-_1_.svg" alt="logo">
+                </a>
+            </div>
+            <nav  class="pages-nav">
+                <ul>
+                    <li>
+                        <a href="/main.html">
+                            <h1>Home</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/messages.html">
+                            <h1>
+                                Profile
+                            </h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/connections.html">
+                            <h1>Connections</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/blog.html">
+                            <h1>Blog</h1>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="search">
+                </form>
+            </div>
+            <div class="setting-icon">
+                <a href="/settings.html">
+                    <button class="settings">
+                        <img src="/Assets/settings.svg" alt="">
+                    </button>
+                </a>
+            </div>
+    </header>
+    <main>
+        <section class="container">
+            <ul class="news-feed-tempate scroll-section">
+                <li class="feed-post">
+                    <div class="two-column-grid">
+                        <div class="user">
+                            <img src="https://acewebcontent.azureedge.net/blogs/authors/N425273.jpg" alt="user-icon">
+                        </div>
+                        <div class="content-section">
+                            <div class="two-column-grid ">
+                                <h3>Frank Mall</h3>
+                                <p class="post-time-style"> • 24 min</p>
+                            </div>
+                            <img class="feed-img" src="https://acewebcontent.azureedge.net/blogs/blog-fitnovatives-012615-1.jpg" alt="">
+                            <p>Regardless of where you want to be in three, six or 18 months, using kettlebells can be a great way to help you reach your goals. Like most training tools, using the correct technique is critical. Take the time to perfect your technique before progressing to the more advanced moves. Many of the advanced movements in kettlebells build on the basics swings and catches. As you become more proficient, the basics moves can become part of your warm-up routine to prepare you for the more complex movements. Don’t let the need to use a heavy starting weight get in the way of your technique. If your goal is to use the heaviest kettlebell out there, don’t worry—it’s waiting for you. Perfect your technique first. Remember—practice makes permanent, and perfect practice makes perfection. Find the whole article on my website by clicking <a href="https://www.acefitness.org/education-and-resources/professional/expert-articles/5269/how-to-get-started-with-kettlebells/">here</a> </p>
+                            <div class="content-options">
+                                <ul class="">
+                                    <li>
+                                        <button class="social-interaction-icon social-interaction-inner-grid">
+                                            <img src="/Assets/like.svg" alt="like-button">
+                                            <p>827K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button  class="social-interaction-icon">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ0NC4zOTQgMy45OTZoLTI4NS4wNzJjLTM3LjE4MyAwLTY3LjYwNiAzMC40MjMtNjcuNjA2IDY3LjYwNnYyMy4wMDRoMjU3Ljg3MWMzNy4xODMgMCA2Ny42MDYgMzAuNDIzIDY3LjYwNiA2Ny42MDZ2MTY4LjU0N2gyNy4yMDFjMzcuMTgzIDAgNjcuNjA2LTMwLjQyMyA2Ny42MDYtNjcuNjA2di0xOTEuNTUxYzAtMzcuMTg0LTMwLjQyMy02Ny42MDYtNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiM2YzdlZDYiLz48cGF0aCBkPSJtMzk2LjQ2MSA5MS41MTVoLTI4NS4wNzJjLTYuODM2IDAtMTMuNDQxIDEuMDM2LTE5LjY3MyAyLjk0NnYuMTQ1aDI1Ny44NzFjMzcuMTgzIDAgNjcuNjA2IDMwLjQyMyA2Ny42MDYgNjcuNjA2djE2OC41NDdoMjcuMmM2LjgzNiAwIDEzLjQ0MS0xLjAzNiAxOS42NzMtMi45NDZ2LTE2OC42OTJjLjAwMS0zNy4xODMtMzAuNDIyLTY3LjYwNi02Ny42MDUtNjcuNjA2eiIgZmlsbD0iIzRmNjdkMiIvPjxwYXRoIGQ9Im0zNTIuNjc4IDkxLjUxNWgtMjg1LjA3MmMtMzcuMTgzIDAtNjcuNjA2IDMwLjQyMy02Ny42MDYgNjcuNjA2djE5MS41NWMwIDM3LjE4MyAzMC40MjMgNjcuNjA2IDY3LjYwNiA2Ny42MDZoMTcxLjA5NmM3LjMzNSAwIDEyLjgxMSA2LjgyNiAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCAyNS43NTEtMTUuOTM3IDYyLjM4OS00Mi42MSA5My4yNDQtODAuMzE3IDQuMDU2LTQuOTU3IDEwLjE1Ni03Ljc5IDE2LjU2MS03Ljc5IDM3LjE4MyAwIDY3LjYwNi0zMC40MjMgNjcuNjA2LTY3LjYwNnYtMTkxLjU1YzAtMzcuMTgyLTMwLjQyMy02Ny42MDUtNjcuNjA2LTY3LjYwNXoiIGZpbGw9IiM2MGI4ZmUiLz48cGF0aCBkPSJtMjkzLjYxOCA0MzIuMjQzYzEuNjc3LTcuMTQxLTMuNzk4LTEzLjk2Ni0xMS4xMzMtMTMuOTY2aC00My43ODNjNy4zMzUgMCAxMi44MSA2LjgyNSAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCA5Ljg4LTYuMTE1IDIxLjM2NS0xMy44MTYgMzMuNTA5LTIzLjEwOCA3LjgzMi0xNy41NjMgMTMuMzk5LTM0LjY5NiAxNy4yMzYtNTEuMDMyeiIgZmlsbD0iIzIzYThmZSIvPjxwYXRoIGQ9Im00My43ODMgMzUwLjY3MXYtMTkxLjU1YzAtMzcuMTgzIDMwLjQyMy02Ny42MDYgNjcuNjA2LTY3LjYwNmgtNDMuNzgzYy0zNy4xODMgMC02Ny42MDYgMzAuNDIzLTY3LjYwNiA2Ny42MDZ2MTkxLjU1YzAgMzcuMTgzIDMwLjQyMyA2Ny42MDYgNjcuNjA2IDY3LjYwNmg0My43ODNjLTM3LjE4NCAwLTY3LjYwNi0zMC40MjItNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiMyM2E4ZmUiLz48ZyBmaWxsPSIjZGZlYmZhIj48Y2lyY2xlIGN4PSI5My43MTQiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48Y2lyY2xlIGN4PSIxNjYuMTc0IiBjeT0iMjYwLjM5NyIgcj0iMjIuNDM0Ii8+PGNpcmNsZSBjeD0iMjM4LjYzMyIgY3k9IjI2MC4zOTciIHI9IjIyLjQzNCIvPjxjaXJjbGUgY3g9IjMxMS4wOTMiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48L2c+PHBhdGggZD0ibTkzLjcxNCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTctMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMTY2LjE3NCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTYtMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMjM4LjYzMyAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEzLTMuMDA5LTExLjIxNy0zLjAwOS0xMi4zOSAwLTIyLjQzNCAxMC4wNDQtMjIuNDM0IDIyLjQzNHMxMC4wNDQgMjIuNDM0IDIyLjQzNCAyMi40MzRjNC4wODggMCA3LjkxNy0xLjA5OSAxMS4yMTctMy4wMDktNi43MDMtMy44NzktMTEuMjE3LTExLjEyMy0xMS4yMTctMTkuNDI1eiIgZmlsbD0iI2IxZGJmYyIvPjxwYXRoIGQ9Im0zMTEuMDkzIDI2MC4zOTdjMC04LjMwMiA0LjUxMy0xNS41NDYgMTEuMjE3LTE5LjQyNS0zLjMwMS0xLjkxLTcuMTMtMy4wMDktMTEuMjE3LTMuMDA5LTEyLjM5IDAtMjIuNDM0IDEwLjA0NC0yMi40MzQgMjIuNDM0czEwLjA0NCAyMi40MzQgMjIuNDM0IDIyLjQzNGM0LjA4OCAwIDcuOTE3LTEuMDk5IDExLjIxNy0zLjAwOS02LjcwNC0zLjg3OS0xMS4yMTctMTEuMTIzLTExLjIxNy0xOS40MjV6IiBmaWxsPSIjYjFkYmZjIi8+PC9zdmc+" alt="comment-button">
+                                            <p>2.7K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/share.svg" alt="share-button">
+                                            <p>500</p>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="feed-post">
+                    <div class="two-column-grid">
+                        <div class="user">
+                            <img src="https://upload.wikimedia.org/wikipedia/ro/thumb/3/3a/Harvard_Wreath_Logo_1.svg/493px-Harvard_Wreath_Logo_1.svg.png" alt="user-icon">
+                        </div>
+                        <div class="content-section">
+                            <div class="content-options">
+                                <div class="two-column-grid">   
+                                    <h3> Harvard Medical School</h3> 
+                                    <p class="post-time-style"> • 3h</p>
+                                </div>
+                                <img class="feed-img" src="https://domf5oio6qrcr.cloudfront.net/medialibrary/7661/9f795f1f-db36-4d77-a08a-2165b6bc2b9816207267041728.jpg" alt="">
+                                <p>There are many types of yoga. Hatha (a combination of many styles) is one of the most popular styles. It is a more physical type of yoga rather than a still, meditative form. Hatha yoga focuses on pranayamas (breath-controlled exercises). These are followed by a series of asanas (yoga postures), which end with savasana (a resting period).</p>
+                                <ul>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/like.svg" alt="like-button">
+                                            <p>827K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button  class="social-interaction-icon">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ0NC4zOTQgMy45OTZoLTI4NS4wNzJjLTM3LjE4MyAwLTY3LjYwNiAzMC40MjMtNjcuNjA2IDY3LjYwNnYyMy4wMDRoMjU3Ljg3MWMzNy4xODMgMCA2Ny42MDYgMzAuNDIzIDY3LjYwNiA2Ny42MDZ2MTY4LjU0N2gyNy4yMDFjMzcuMTgzIDAgNjcuNjA2LTMwLjQyMyA2Ny42MDYtNjcuNjA2di0xOTEuNTUxYzAtMzcuMTg0LTMwLjQyMy02Ny42MDYtNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiM2YzdlZDYiLz48cGF0aCBkPSJtMzk2LjQ2MSA5MS41MTVoLTI4NS4wNzJjLTYuODM2IDAtMTMuNDQxIDEuMDM2LTE5LjY3MyAyLjk0NnYuMTQ1aDI1Ny44NzFjMzcuMTgzIDAgNjcuNjA2IDMwLjQyMyA2Ny42MDYgNjcuNjA2djE2OC41NDdoMjcuMmM2LjgzNiAwIDEzLjQ0MS0xLjAzNiAxOS42NzMtMi45NDZ2LTE2OC42OTJjLjAwMS0zNy4xODMtMzAuNDIyLTY3LjYwNi02Ny42MDUtNjcuNjA2eiIgZmlsbD0iIzRmNjdkMiIvPjxwYXRoIGQ9Im0zNTIuNjc4IDkxLjUxNWgtMjg1LjA3MmMtMzcuMTgzIDAtNjcuNjA2IDMwLjQyMy02Ny42MDYgNjcuNjA2djE5MS41NWMwIDM3LjE4MyAzMC40MjMgNjcuNjA2IDY3LjYwNiA2Ny42MDZoMTcxLjA5NmM3LjMzNSAwIDEyLjgxMSA2LjgyNiAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCAyNS43NTEtMTUuOTM3IDYyLjM4OS00Mi42MSA5My4yNDQtODAuMzE3IDQuMDU2LTQuOTU3IDEwLjE1Ni03Ljc5IDE2LjU2MS03Ljc5IDM3LjE4MyAwIDY3LjYwNi0zMC40MjMgNjcuNjA2LTY3LjYwNnYtMTkxLjU1YzAtMzcuMTgyLTMwLjQyMy02Ny42MDUtNjcuNjA2LTY3LjYwNXoiIGZpbGw9IiM2MGI4ZmUiLz48cGF0aCBkPSJtMjkzLjYxOCA0MzIuMjQzYzEuNjc3LTcuMTQxLTMuNzk4LTEzLjk2Ni0xMS4xMzMtMTMuOTY2aC00My43ODNjNy4zMzUgMCAxMi44MSA2LjgyNSAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCA5Ljg4LTYuMTE1IDIxLjM2NS0xMy44MTYgMzMuNTA5LTIzLjEwOCA3LjgzMi0xNy41NjMgMTMuMzk5LTM0LjY5NiAxNy4yMzYtNTEuMDMyeiIgZmlsbD0iIzIzYThmZSIvPjxwYXRoIGQ9Im00My43ODMgMzUwLjY3MXYtMTkxLjU1YzAtMzcuMTgzIDMwLjQyMy02Ny42MDYgNjcuNjA2LTY3LjYwNmgtNDMuNzgzYy0zNy4xODMgMC02Ny42MDYgMzAuNDIzLTY3LjYwNiA2Ny42MDZ2MTkxLjU1YzAgMzcuMTgzIDMwLjQyMyA2Ny42MDYgNjcuNjA2IDY3LjYwNmg0My43ODNjLTM3LjE4NCAwLTY3LjYwNi0zMC40MjItNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiMyM2E4ZmUiLz48ZyBmaWxsPSIjZGZlYmZhIj48Y2lyY2xlIGN4PSI5My43MTQiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48Y2lyY2xlIGN4PSIxNjYuMTc0IiBjeT0iMjYwLjM5NyIgcj0iMjIuNDM0Ii8+PGNpcmNsZSBjeD0iMjM4LjYzMyIgY3k9IjI2MC4zOTciIHI9IjIyLjQzNCIvPjxjaXJjbGUgY3g9IjMxMS4wOTMiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48L2c+PHBhdGggZD0ibTkzLjcxNCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTctMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMTY2LjE3NCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTYtMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMjM4LjYzMyAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEzLTMuMDA5LTExLjIxNy0zLjAwOS0xMi4zOSAwLTIyLjQzNCAxMC4wNDQtMjIuNDM0IDIyLjQzNHMxMC4wNDQgMjIuNDM0IDIyLjQzNCAyMi40MzRjNC4wODggMCA3LjkxNy0xLjA5OSAxMS4yMTctMy4wMDktNi43MDMtMy44NzktMTEuMjE3LTExLjEyMy0xMS4yMTctMTkuNDI1eiIgZmlsbD0iI2IxZGJmYyIvPjxwYXRoIGQ9Im0zMTEuMDkzIDI2MC4zOTdjMC04LjMwMiA0LjUxMy0xNS41NDYgMTEuMjE3LTE5LjQyNS0zLjMwMS0xLjkxLTcuMTMtMy4wMDktMTEuMjE3LTMuMDA5LTEyLjM5IDAtMjIuNDM0IDEwLjA0NC0yMi40MzQgMjIuNDM0czEwLjA0NCAyMi40MzQgMjIuNDM0IDIyLjQzNGM0LjA4OCAwIDcuOTE3LTEuMDk5IDExLjIxNy0zLjAwOS02LjcwNC0zLjg3OS0xMS4yMTctMTEuMTIzLTExLjIxNy0xOS40MjV6IiBmaWxsPSIjYjFkYmZjIi8+PC9zdmc+" alt="comment-button">
+                                            <p>2.7K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/share.svg" alt="share-button">
+                                            <p>500</p>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="feed-post">
+                    <div class="two-column-grid">
+                        <div class="user">
+                            <img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/21/1495449890-the-rock-recreates-iconic-picture.jpg" alt="user-icon">
+                        </div>
+                        <div class="content-section">
+                            <div class="two-column-grid ">
+                                <h3>The Rock Experience</h3>
+                                <p class="post-time-style"> • 12 min</p>
+                            </div>
+                            <img class="feed-img" src="https://www.muscleandfitness.com/wp-content/uploads/2018/08/therock-5-1109.jpg?w=560&h=315&crop=1&quality=86&strip=all" alt="the-rock-pic">
+                            <div class="content-options">
+                                <ul>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/like.svg" alt="like-button">
+                                            <p>827K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button  class="social-interaction-icon">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ0NC4zOTQgMy45OTZoLTI4NS4wNzJjLTM3LjE4MyAwLTY3LjYwNiAzMC40MjMtNjcuNjA2IDY3LjYwNnYyMy4wMDRoMjU3Ljg3MWMzNy4xODMgMCA2Ny42MDYgMzAuNDIzIDY3LjYwNiA2Ny42MDZ2MTY4LjU0N2gyNy4yMDFjMzcuMTgzIDAgNjcuNjA2LTMwLjQyMyA2Ny42MDYtNjcuNjA2di0xOTEuNTUxYzAtMzcuMTg0LTMwLjQyMy02Ny42MDYtNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiM2YzdlZDYiLz48cGF0aCBkPSJtMzk2LjQ2MSA5MS41MTVoLTI4NS4wNzJjLTYuODM2IDAtMTMuNDQxIDEuMDM2LTE5LjY3MyAyLjk0NnYuMTQ1aDI1Ny44NzFjMzcuMTgzIDAgNjcuNjA2IDMwLjQyMyA2Ny42MDYgNjcuNjA2djE2OC41NDdoMjcuMmM2LjgzNiAwIDEzLjQ0MS0xLjAzNiAxOS42NzMtMi45NDZ2LTE2OC42OTJjLjAwMS0zNy4xODMtMzAuNDIyLTY3LjYwNi02Ny42MDUtNjcuNjA2eiIgZmlsbD0iIzRmNjdkMiIvPjxwYXRoIGQ9Im0zNTIuNjc4IDkxLjUxNWgtMjg1LjA3MmMtMzcuMTgzIDAtNjcuNjA2IDMwLjQyMy02Ny42MDYgNjcuNjA2djE5MS41NWMwIDM3LjE4MyAzMC40MjMgNjcuNjA2IDY3LjYwNiA2Ny42MDZoMTcxLjA5NmM3LjMzNSAwIDEyLjgxMSA2LjgyNiAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCAyNS43NTEtMTUuOTM3IDYyLjM4OS00Mi42MSA5My4yNDQtODAuMzE3IDQuMDU2LTQuOTU3IDEwLjE1Ni03Ljc5IDE2LjU2MS03Ljc5IDM3LjE4MyAwIDY3LjYwNi0zMC40MjMgNjcuNjA2LTY3LjYwNnYtMTkxLjU1YzAtMzcuMTgyLTMwLjQyMy02Ny42MDUtNjcuNjA2LTY3LjYwNXoiIGZpbGw9IiM2MGI4ZmUiLz48cGF0aCBkPSJtMjkzLjYxOCA0MzIuMjQzYzEuNjc3LTcuMTQxLTMuNzk4LTEzLjk2Ni0xMS4xMzMtMTMuOTY2aC00My43ODNjNy4zMzUgMCAxMi44MSA2LjgyNSAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCA5Ljg4LTYuMTE1IDIxLjM2NS0xMy44MTYgMzMuNTA5LTIzLjEwOCA3LjgzMi0xNy41NjMgMTMuMzk5LTM0LjY5NiAxNy4yMzYtNTEuMDMyeiIgZmlsbD0iIzIzYThmZSIvPjxwYXRoIGQ9Im00My43ODMgMzUwLjY3MXYtMTkxLjU1YzAtMzcuMTgzIDMwLjQyMy02Ny42MDYgNjcuNjA2LTY3LjYwNmgtNDMuNzgzYy0zNy4xODMgMC02Ny42MDYgMzAuNDIzLTY3LjYwNiA2Ny42MDZ2MTkxLjU1YzAgMzcuMTgzIDMwLjQyMyA2Ny42MDYgNjcuNjA2IDY3LjYwNmg0My43ODNjLTM3LjE4NCAwLTY3LjYwNi0zMC40MjItNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiMyM2E4ZmUiLz48ZyBmaWxsPSIjZGZlYmZhIj48Y2lyY2xlIGN4PSI5My43MTQiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48Y2lyY2xlIGN4PSIxNjYuMTc0IiBjeT0iMjYwLjM5NyIgcj0iMjIuNDM0Ii8+PGNpcmNsZSBjeD0iMjM4LjYzMyIgY3k9IjI2MC4zOTciIHI9IjIyLjQzNCIvPjxjaXJjbGUgY3g9IjMxMS4wOTMiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48L2c+PHBhdGggZD0ibTkzLjcxNCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTctMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMTY2LjE3NCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTYtMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMjM4LjYzMyAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEzLTMuMDA5LTExLjIxNy0zLjAwOS0xMi4zOSAwLTIyLjQzNCAxMC4wNDQtMjIuNDM0IDIyLjQzNHMxMC4wNDQgMjIuNDM0IDIyLjQzNCAyMi40MzRjNC4wODggMCA3LjkxNy0xLjA5OSAxMS4yMTctMy4wMDktNi43MDMtMy44NzktMTEuMjE3LTExLjEyMy0xMS4yMTctMTkuNDI1eiIgZmlsbD0iI2IxZGJmYyIvPjxwYXRoIGQ9Im0zMTEuMDkzIDI2MC4zOTdjMC04LjMwMiA0LjUxMy0xNS41NDYgMTEuMjE3LTE5LjQyNS0zLjMwMS0xLjkxLTcuMTMtMy4wMDktMTEuMjE3LTMuMDA5LTEyLjM5IDAtMjIuNDM0IDEwLjA0NC0yMi40MzQgMjIuNDM0czEwLjA0NCAyMi40MzQgMjIuNDM0IDIyLjQzNGM0LjA4OCAwIDcuOTE3LTEuMDk5IDExLjIxNy0zLjAwOS02LjcwNC0zLjg3OS0xMS4yMTctMTEuMTIzLTExLjIxNy0xOS40MjV6IiBmaWxsPSIjYjFkYmZjIi8+PC9zdmc+" alt="comment-button">
+                                            <p>2.7K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/share.svg" alt="share-button">
+                                            <p>500</p>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="feed-post">
+                    <div class="two-column-grid">
+                        <div class="user">
+                            <img src="" alt="user-icon">
+                        </div>
+                        <div class="content-section">
+                            <div class="two-column-grid ">
+                                <h3>Melisa Roberts</h3>
+                                <p class="post-time-style"> • 59 sec</p>
+                            </div>
+                            <img class="feed-img" src="" alt="">
+                            <iframe width="700px" height="315" src="https://www.youtube.com/embed/o9XHo67ZT_M" frameborder="0">
+                            </iframe>
+                            <p>How going on a full plant-based diet has changed my life and how it can change yours too</p>
+                            <p>Link in bio</p>
+                            <div class="content-options">
+                                <ul>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/like.svg" alt="like-button">
+                                            <p>827K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button  class="social-interaction-icon">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ0NC4zOTQgMy45OTZoLTI4NS4wNzJjLTM3LjE4MyAwLTY3LjYwNiAzMC40MjMtNjcuNjA2IDY3LjYwNnYyMy4wMDRoMjU3Ljg3MWMzNy4xODMgMCA2Ny42MDYgMzAuNDIzIDY3LjYwNiA2Ny42MDZ2MTY4LjU0N2gyNy4yMDFjMzcuMTgzIDAgNjcuNjA2LTMwLjQyMyA2Ny42MDYtNjcuNjA2di0xOTEuNTUxYzAtMzcuMTg0LTMwLjQyMy02Ny42MDYtNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiM2YzdlZDYiLz48cGF0aCBkPSJtMzk2LjQ2MSA5MS41MTVoLTI4NS4wNzJjLTYuODM2IDAtMTMuNDQxIDEuMDM2LTE5LjY3MyAyLjk0NnYuMTQ1aDI1Ny44NzFjMzcuMTgzIDAgNjcuNjA2IDMwLjQyMyA2Ny42MDYgNjcuNjA2djE2OC41NDdoMjcuMmM2LjgzNiAwIDEzLjQ0MS0xLjAzNiAxOS42NzMtMi45NDZ2LTE2OC42OTJjLjAwMS0zNy4xODMtMzAuNDIyLTY3LjYwNi02Ny42MDUtNjcuNjA2eiIgZmlsbD0iIzRmNjdkMiIvPjxwYXRoIGQ9Im0zNTIuNjc4IDkxLjUxNWgtMjg1LjA3MmMtMzcuMTgzIDAtNjcuNjA2IDMwLjQyMy02Ny42MDYgNjcuNjA2djE5MS41NWMwIDM3LjE4MyAzMC40MjMgNjcuNjA2IDY3LjYwNiA2Ny42MDZoMTcxLjA5NmM3LjMzNSAwIDEyLjgxMSA2LjgyNiAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCAyNS43NTEtMTUuOTM3IDYyLjM4OS00Mi42MSA5My4yNDQtODAuMzE3IDQuMDU2LTQuOTU3IDEwLjE1Ni03Ljc5IDE2LjU2MS03Ljc5IDM3LjE4MyAwIDY3LjYwNi0zMC40MjMgNjcuNjA2LTY3LjYwNnYtMTkxLjU1YzAtMzcuMTgyLTMwLjQyMy02Ny42MDUtNjcuNjA2LTY3LjYwNXoiIGZpbGw9IiM2MGI4ZmUiLz48cGF0aCBkPSJtMjkzLjYxOCA0MzIuMjQzYzEuNjc3LTcuMTQxLTMuNzk4LTEzLjk2Ni0xMS4xMzMtMTMuOTY2aC00My43ODNjNy4zMzUgMCAxMi44MSA2LjgyNSAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCA5Ljg4LTYuMTE1IDIxLjM2NS0xMy44MTYgMzMuNTA5LTIzLjEwOCA3LjgzMi0xNy41NjMgMTMuMzk5LTM0LjY5NiAxNy4yMzYtNTEuMDMyeiIgZmlsbD0iIzIzYThmZSIvPjxwYXRoIGQ9Im00My43ODMgMzUwLjY3MXYtMTkxLjU1YzAtMzcuMTgzIDMwLjQyMy02Ny42MDYgNjcuNjA2LTY3LjYwNmgtNDMuNzgzYy0zNy4xODMgMC02Ny42MDYgMzAuNDIzLTY3LjYwNiA2Ny42MDZ2MTkxLjU1YzAgMzcuMTgzIDMwLjQyMyA2Ny42MDYgNjcuNjA2IDY3LjYwNmg0My43ODNjLTM3LjE4NCAwLTY3LjYwNi0zMC40MjItNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiMyM2E4ZmUiLz48ZyBmaWxsPSIjZGZlYmZhIj48Y2lyY2xlIGN4PSI5My43MTQiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48Y2lyY2xlIGN4PSIxNjYuMTc0IiBjeT0iMjYwLjM5NyIgcj0iMjIuNDM0Ii8+PGNpcmNsZSBjeD0iMjM4LjYzMyIgY3k9IjI2MC4zOTciIHI9IjIyLjQzNCIvPjxjaXJjbGUgY3g9IjMxMS4wOTMiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48L2c+PHBhdGggZD0ibTkzLjcxNCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTctMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMTY2LjE3NCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTYtMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMjM4LjYzMyAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEzLTMuMDA5LTExLjIxNy0zLjAwOS0xMi4zOSAwLTIyLjQzNCAxMC4wNDQtMjIuNDM0IDIyLjQzNHMxMC4wNDQgMjIuNDM0IDIyLjQzNCAyMi40MzRjNC4wODggMCA3LjkxNy0xLjA5OSAxMS4yMTctMy4wMDktNi43MDMtMy44NzktMTEuMjE3LTExLjEyMy0xMS4yMTctMTkuNDI1eiIgZmlsbD0iI2IxZGJmYyIvPjxwYXRoIGQ9Im0zMTEuMDkzIDI2MC4zOTdjMC04LjMwMiA0LjUxMy0xNS41NDYgMTEuMjE3LTE5LjQyNS0zLjMwMS0xLjkxLTcuMTMtMy4wMDktMTEuMjE3LTMuMDA5LTEyLjM5IDAtMjIuNDM0IDEwLjA0NC0yMi40MzQgMjIuNDM0czEwLjA0NCAyMi40MzQgMjIuNDM0IDIyLjQzNGM0LjA4OCAwIDcuOTE3LTEuMDk5IDExLjIxNy0zLjAwOS02LjcwNC0zLjg3OS0xMS4yMTctMTEuMTIzLTExLjIxNy0xOS40MjV6IiBmaWxsPSIjYjFkYmZjIi8+PC9zdmc+" alt="comment-button">
+                                            <p>2.7K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/share.svg" alt="share-button">
+                                            <p>500</p>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="feed-post">
+                    <div class="two-column-grid">
+                        <div class="user">
+                            <img src="https://www.nme.com/wp-content/uploads/2020/08/GirlInRedRue.jpg" alt="user-icon">
+                        </div>
+                        <div class="content-section">
+                            <div class="two-column-grid ">
+                                <h3>Mireya Fitness Journey</h3>
+                                <p class="post-time-style"> • 1 day</p>
+                            </div>
+                            <img class="feed-img" src="data:image/jpeg;base64,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" alt="">
+                            <p>#TRANSFORMATIONTUESDAY 🥳 the photo on the left was in March 2019 and in the middle August 2019🤯 This was toward the beginning of my journey and I remember it was so hard not to eat what everyone else was eating, I remember feeling so defeated and questioning if this would even work. I acted like everything was fine but I was fighting with myself every single second and I just wanna say I’m proud of you Mireya.</p>
+                            <p>For more details on what worked for me and how you could implement it too, feel free to <a href="https://www.instagram.com/boolean_uk/">DM</a>  me on Instagram</p>
+                            <p>stay fit, stay healty, stay active</p>
+                            <div class="content-options">
+                                <ul>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/like.svg" alt="like-button">
+                                            <p>827K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button  class="social-interaction-icon">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTQ0NC4zOTQgMy45OTZoLTI4NS4wNzJjLTM3LjE4MyAwLTY3LjYwNiAzMC40MjMtNjcuNjA2IDY3LjYwNnYyMy4wMDRoMjU3Ljg3MWMzNy4xODMgMCA2Ny42MDYgMzAuNDIzIDY3LjYwNiA2Ny42MDZ2MTY4LjU0N2gyNy4yMDFjMzcuMTgzIDAgNjcuNjA2LTMwLjQyMyA2Ny42MDYtNjcuNjA2di0xOTEuNTUxYzAtMzcuMTg0LTMwLjQyMy02Ny42MDYtNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiM2YzdlZDYiLz48cGF0aCBkPSJtMzk2LjQ2MSA5MS41MTVoLTI4NS4wNzJjLTYuODM2IDAtMTMuNDQxIDEuMDM2LTE5LjY3MyAyLjk0NnYuMTQ1aDI1Ny44NzFjMzcuMTgzIDAgNjcuNjA2IDMwLjQyMyA2Ny42MDYgNjcuNjA2djE2OC41NDdoMjcuMmM2LjgzNiAwIDEzLjQ0MS0xLjAzNiAxOS42NzMtMi45NDZ2LTE2OC42OTJjLjAwMS0zNy4xODMtMzAuNDIyLTY3LjYwNi02Ny42MDUtNjcuNjA2eiIgZmlsbD0iIzRmNjdkMiIvPjxwYXRoIGQ9Im0zNTIuNjc4IDkxLjUxNWgtMjg1LjA3MmMtMzcuMTgzIDAtNjcuNjA2IDMwLjQyMy02Ny42MDYgNjcuNjA2djE5MS41NWMwIDM3LjE4MyAzMC40MjMgNjcuNjA2IDY3LjYwNiA2Ny42MDZoMTcxLjA5NmM3LjMzNSAwIDEyLjgxMSA2LjgyNiAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCAyNS43NTEtMTUuOTM3IDYyLjM4OS00Mi42MSA5My4yNDQtODAuMzE3IDQuMDU2LTQuOTU3IDEwLjE1Ni03Ljc5IDE2LjU2MS03Ljc5IDM3LjE4MyAwIDY3LjYwNi0zMC40MjMgNjcuNjA2LTY3LjYwNnYtMTkxLjU1YzAtMzcuMTgyLTMwLjQyMy02Ny42MDUtNjcuNjA2LTY3LjYwNXoiIGZpbGw9IiM2MGI4ZmUiLz48cGF0aCBkPSJtMjkzLjYxOCA0MzIuMjQzYzEuNjc3LTcuMTQxLTMuNzk4LTEzLjk2Ni0xMS4xMzMtMTMuOTY2aC00My43ODNjNy4zMzUgMCAxMi44MSA2LjgyNSAxMS4xMzMgMTMuOTY2LTQuNTM3IDE5LjMxNy0xMS40OCAzOS43NDUtMjEuNzQ0IDYwLjY4Ni00LjYwOSA5LjQwNSA1Ljg3NiAxOC45NjYgMTQuNzgyIDEzLjQ1NCA5Ljg4LTYuMTE1IDIxLjM2NS0xMy44MTYgMzMuNTA5LTIzLjEwOCA3LjgzMi0xNy41NjMgMTMuMzk5LTM0LjY5NiAxNy4yMzYtNTEuMDMyeiIgZmlsbD0iIzIzYThmZSIvPjxwYXRoIGQ9Im00My43ODMgMzUwLjY3MXYtMTkxLjU1YzAtMzcuMTgzIDMwLjQyMy02Ny42MDYgNjcuNjA2LTY3LjYwNmgtNDMuNzgzYy0zNy4xODMgMC02Ny42MDYgMzAuNDIzLTY3LjYwNiA2Ny42MDZ2MTkxLjU1YzAgMzcuMTgzIDMwLjQyMyA2Ny42MDYgNjcuNjA2IDY3LjYwNmg0My43ODNjLTM3LjE4NCAwLTY3LjYwNi0zMC40MjItNjcuNjA2LTY3LjYwNnoiIGZpbGw9IiMyM2E4ZmUiLz48ZyBmaWxsPSIjZGZlYmZhIj48Y2lyY2xlIGN4PSI5My43MTQiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48Y2lyY2xlIGN4PSIxNjYuMTc0IiBjeT0iMjYwLjM5NyIgcj0iMjIuNDM0Ii8+PGNpcmNsZSBjeD0iMjM4LjYzMyIgY3k9IjI2MC4zOTciIHI9IjIyLjQzNCIvPjxjaXJjbGUgY3g9IjMxMS4wOTMiIGN5PSIyNjAuMzk3IiByPSIyMi40MzQiLz48L2c+PHBhdGggZD0ibTkzLjcxNCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTctMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMTY2LjE3NCAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEyOS0zLjAwOS0xMS4yMTctMy4wMDktMTIuMzkgMC0yMi40MzQgMTAuMDQ0LTIyLjQzNCAyMi40MzRzMTAuMDQ0IDIyLjQzNCAyMi40MzQgMjIuNDM0YzQuMDg4IDAgNy45MTYtMS4wOTkgMTEuMjE3LTMuMDA5LTYuNzA0LTMuODc5LTExLjIxNy0xMS4xMjMtMTEuMjE3LTE5LjQyNXoiIGZpbGw9IiNiMWRiZmMiLz48cGF0aCBkPSJtMjM4LjYzMyAyNjAuMzk3YzAtOC4zMDIgNC41MTQtMTUuNTQ2IDExLjIxNy0xOS40MjUtMy4zMDEtMS45MS03LjEzLTMuMDA5LTExLjIxNy0zLjAwOS0xMi4zOSAwLTIyLjQzNCAxMC4wNDQtMjIuNDM0IDIyLjQzNHMxMC4wNDQgMjIuNDM0IDIyLjQzNCAyMi40MzRjNC4wODggMCA3LjkxNy0xLjA5OSAxMS4yMTctMy4wMDktNi43MDMtMy44NzktMTEuMjE3LTExLjEyMy0xMS4yMTctMTkuNDI1eiIgZmlsbD0iI2IxZGJmYyIvPjxwYXRoIGQ9Im0zMTEuMDkzIDI2MC4zOTdjMC04LjMwMiA0LjUxMy0xNS41NDYgMTEuMjE3LTE5LjQyNS0zLjMwMS0xLjkxLTcuMTMtMy4wMDktMTEuMjE3LTMuMDA5LTEyLjM5IDAtMjIuNDM0IDEwLjA0NC0yMi40MzQgMjIuNDM0czEwLjA0NCAyMi40MzQgMjIuNDM0IDIyLjQzNGM0LjA4OCAwIDcuOTE3LTEuMDk5IDExLjIxNy0zLjAwOS02LjcwNC0zLjg3OS0xMS4yMTctMTEuMTIzLTExLjIxNy0xOS40MjV6IiBmaWxsPSIjYjFkYmZjIi8+PC9zdmc+" alt="comment-button">
+                                            <p>2.7K</p>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button class="social-interaction-icon">
+                                            <img src="/Assets/share.svg" alt="share-button">
+                                            <p>500</p>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="three-column-grid_lists">
+            <ul class="social-media-grid">
+                <li class="two-row-grid">
+                    <a href="https://www.instagram.com/boolean_uk/">
+                        <img class="social-media-icons" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDU1MS4wMzQgNTUxLjAzNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTUxLjAzNCA1NTEuMDM0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgkNCgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNzUuNTE3IiB5MT0iNC41NyIgeDI9IjI3NS41MTciIHkyPSI1NDkuNzIiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMCA1NTQpIj4NCgkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0UwOUIzRCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjMiIHN0eWxlPSJzdG9wLWNvbG9yOiNDNzRDNEQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC42IiBzdHlsZT0ic3RvcC1jb2xvcjojQzIxOTc1Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM3MDI0QzQiLz4NCgk8L2xpbmVhckdyYWRpZW50Pg0KCTxwYXRoIHN0eWxlPSJmaWxsOnVybCgjU1ZHSURfMV8pOyIgZD0iTTM4Ni44NzgsMEgxNjQuMTU2QzczLjY0LDAsMCw3My42NCwwLDE2NC4xNTZ2MjIyLjcyMg0KCQljMCw5MC41MTYsNzMuNjQsMTY0LjE1NiwxNjQuMTU2LDE2NC4xNTZoMjIyLjcyMmM5MC41MTYsMCwxNjQuMTU2LTczLjY0LDE2NC4xNTYtMTY0LjE1NlYxNjQuMTU2DQoJCUM1NTEuMDMzLDczLjY0LDQ3Ny4zOTMsMCwzODYuODc4LDB6IE00OTUuNiwzODYuODc4YzAsNjAuMDQ1LTQ4LjY3NywxMDguNzIyLTEwOC43MjIsMTA4LjcyMkgxNjQuMTU2DQoJCWMtNjAuMDQ1LDAtMTA4LjcyMi00OC42NzctMTA4LjcyMi0xMDguNzIyVjE2NC4xNTZjMC02MC4wNDYsNDguNjc3LTEwOC43MjIsMTA4LjcyMi0xMDguNzIyaDIyMi43MjINCgkJYzYwLjA0NSwwLDEwOC43MjIsNDguNjc2LDEwOC43MjIsMTA4LjcyMkw0OTUuNiwzODYuODc4TDQ5NS42LDM4Ni44Nzh6Ii8+DQoJDQoJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMl8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjc1LjUxNyIgeTE9IjQuNTciIHgyPSIyNzUuNTE3IiB5Mj0iNTQ5LjcyIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KDEgMCAwIC0xIDAgNTU0KSI+DQoJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNFMDlCM0QiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC4zIiBzdHlsZT0ic3RvcC1jb2xvcjojQzc0QzREIi8+DQoJCTxzdG9wICBvZmZzZXQ9IjAuNiIgc3R5bGU9InN0b3AtY29sb3I6I0MyMTk3NSIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojNzAyNEM0Ii8+DQoJPC9saW5lYXJHcmFkaWVudD4NCgk8cGF0aCBzdHlsZT0iZmlsbDp1cmwoI1NWR0lEXzJfKTsiIGQ9Ik0yNzUuNTE3LDEzM0MxOTYuOTMzLDEzMywxMzMsMTk2LjkzMywxMzMsMjc1LjUxNnM2My45MzMsMTQyLjUxNywxNDIuNTE3LDE0Mi41MTcNCgkJUzQxOC4wMzQsMzU0LjEsNDE4LjAzNCwyNzUuNTE2UzM1NC4xMDEsMTMzLDI3NS41MTcsMTMzeiBNMjc1LjUxNywzNjIuNmMtNDguMDk1LDAtODcuMDgzLTM4Ljk4OC04Ny4wODMtODcuMDgzDQoJCXMzOC45ODktODcuMDgzLDg3LjA4My04Ny4wODNjNDguMDk1LDAsODcuMDgzLDM4Ljk4OCw4Ny4wODMsODcuMDgzQzM2Mi42LDMyMy42MTEsMzIzLjYxMSwzNjIuNiwyNzUuNTE3LDM2Mi42eiIvPg0KCQ0KCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQxOC4zMSIgeTE9IjQuNTciIHgyPSI0MTguMzEiIHkyPSI1NDkuNzIiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMCA1NTQpIj4NCgkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0UwOUIzRCIvPg0KCQk8c3RvcCAgb2Zmc2V0PSIwLjMiIHN0eWxlPSJzdG9wLWNvbG9yOiNDNzRDNEQiLz4NCgkJPHN0b3AgIG9mZnNldD0iMC42IiBzdHlsZT0ic3RvcC1jb2xvcjojQzIxOTc1Ii8+DQoJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiM3MDI0QzQiLz4NCgk8L2xpbmVhckdyYWRpZW50Pg0KCTxjaXJjbGUgc3R5bGU9ImZpbGw6dXJsKCNTVkdJRF8zXyk7IiBjeD0iNDE4LjMxIiBjeT0iMTM0LjA3IiByPSIzNC4xNSIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" alt="Instagram">
+                        <p>Instagram</p>
+                    </a>
+                </li>
+                <li class="two-row-grid">
+                    <a href="https://twitter.com/BooleanUk">
+                        <img class="social-media-icons" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzAzQTlGNDsiIGQ9Ik01MTIsOTcuMjQ4Yy0xOS4wNCw4LjM1Mi0zOS4zMjgsMTMuODg4LTYwLjQ4LDE2LjU3NmMyMS43Ni0xMi45OTIsMzguMzY4LTMzLjQwOCw0Ni4xNzYtNTguMDE2DQoJYy0yMC4yODgsMTIuMDk2LTQyLjY4OCwyMC42NC02Ni41NiwyNS40MDhDNDExLjg3Miw2MC43MDQsMzg0LjQxNiw0OCwzNTQuNDY0LDQ4Yy01OC4xMTIsMC0xMDQuODk2LDQ3LjE2OC0xMDQuODk2LDEwNC45OTINCgljMCw4LjMyLDAuNzA0LDE2LjMyLDIuNDMyLDIzLjkzNmMtODcuMjY0LTQuMjU2LTE2NC40OC00Ni4wOC0yMTYuMzUyLTEwOS43OTJjLTkuMDU2LDE1LjcxMi0xNC4zNjgsMzMuNjk2LTE0LjM2OCw1My4wNTYNCgljMCwzNi4zNTIsMTguNzIsNjguNTc2LDQ2LjYyNCw4Ny4yMzJjLTE2Ljg2NC0wLjMyLTMzLjQwOC01LjIxNi00Ny40MjQtMTIuOTI4YzAsMC4zMiwwLDAuNzM2LDAsMS4xNTINCgljMCw1MS4wMDgsMzYuMzg0LDkzLjM3Niw4NC4wOTYsMTAzLjEzNmMtOC41NDQsMi4zMzYtMTcuODU2LDMuNDU2LTI3LjUyLDMuNDU2Yy02LjcyLDAtMTMuNTA0LTAuMzg0LTE5Ljg3Mi0xLjc5Mg0KCWMxMy42LDQxLjU2OCw1Mi4xOTIsNzIuMTI4LDk4LjA4LDczLjEyYy0zNS43MTIsMjcuOTM2LTgxLjA1Niw0NC43NjgtMTMwLjE0NCw0NC43NjhjLTguNjA4LDAtMTYuODY0LTAuMzg0LTI1LjEyLTEuNDQNCglDNDYuNDk2LDQ0Ni44OCwxMDEuNiw0NjQsMTYxLjAyNCw0NjRjMTkzLjE1MiwwLDI5OC43NTItMTYwLDI5OC43NTItMjk4LjY4OGMwLTQuNjQtMC4xNi05LjEyLTAuMzg0LTEzLjU2OA0KCUM0ODAuMjI0LDEzNi45Niw0OTcuNzI4LDExOC40OTYsNTEyLDk3LjI0OHoiLz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" alt="Twitter">
+                        <p>Twitter</p>
+                    </a>
+                </li>
+                <li class="two-row-grid">
+                    <a href="https://www.facebook.com/BooleanUK">
+                        <img class="social-media-icons" src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjEgMGgtMThjLTEuNjU1IDAtMyAxLjM0NS0zIDN2MThjMCAxLjY1NCAxLjM0NSAzIDMgM2gxOGMxLjY1NCAwIDMtMS4zNDYgMy0zdi0xOGMwLTEuNjU1LTEuMzQ2LTMtMy0zeiIgZmlsbD0iIzNiNTk5OSIvPjxwYXRoIGQ9Im0xNi41IDEydi0zYzAtLjgyOC42NzItLjc1IDEuNS0uNzVoMS41di0zLjc1aC0zYy0yLjQ4NiAwLTQuNSAyLjAxNC00LjUgNC41djNoLTN2My43NWgzdjguMjVoNC41di04LjI1aDIuMjVsMS41LTMuNzV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+" alt="Facebook">
+                        <p>Facebook</p>
+                    </a>
+                </li>
+                <li class="two-row-grid">
+                    <a href="https://www.youtube.com/channel/UClS2Yv-ots18NNDZ4Vk0_ZQ">
+                        <img class="social-media-icons" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIC03NyA1MTIuMDAyMTMgNTEyIiB3aWR0aD0iNTEycHQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTUwMS40NTMxMjUgNTYuMDkzNzVjLTUuOTAyMzQ0LTIxLjkzMzU5NC0yMy4xOTUzMTMtMzkuMjIyNjU2LTQ1LjEyNS00NS4xMjg5MDYtNDAuMDY2NDA2LTEwLjk2NDg0NC0yMDAuMzMyMDMxLTEwLjk2NDg0NC0yMDAuMzMyMDMxLTEwLjk2NDg0NHMtMTYwLjI2MTcxOSAwLTIwMC4zMjgxMjUgMTAuNTQ2ODc1Yy0yMS41MDc4MTMgNS45MDIzNDQtMzkuMjIyNjU3IDIzLjYxNzE4Ny00NS4xMjUgNDUuNTQ2ODc1LTEwLjU0Mjk2OSA0MC4wNjI1LTEwLjU0Mjk2OSAxMjMuMTQ4NDM4LTEwLjU0Mjk2OSAxMjMuMTQ4NDM4czAgODMuNTAzOTA2IDEwLjU0Mjk2OSAxMjMuMTQ4NDM3YzUuOTA2MjUgMjEuOTI5Njg3IDIzLjE5NTMxMiAzOS4yMjI2NTYgNDUuMTI4OTA2IDQ1LjEyODkwNiA0MC40ODQzNzUgMTAuOTY0ODQ0IDIwMC4zMjgxMjUgMTAuOTY0ODQ0IDIwMC4zMjgxMjUgMTAuOTY0ODQ0czE2MC4yNjE3MTkgMCAyMDAuMzI4MTI1LTEwLjU0Njg3NWMyMS45MzM1OTQtNS45MDIzNDQgMzkuMjIyNjU2LTIzLjE5NTMxMiA0NS4xMjg5MDYtNDUuMTI1IDEwLjU0Mjk2OS00MC4wNjY0MDYgMTAuNTQyOTY5LTEyMy4xNDg0MzggMTAuNTQyOTY5LTEyMy4xNDg0MzhzLjQyMTg3NS04My41MDc4MTItMTAuNTQ2ODc1LTEyMy41NzAzMTJ6bTAgMCIgZmlsbD0iI2YwMCIvPjxwYXRoIGQ9Im0yMDQuOTY4NzUgMjU2IDEzMy4yNjk1MzEtNzYuNzU3ODEyLTEzMy4yNjk1MzEtNzYuNzU3ODEzem0wIDAiIGZpbGw9IiNmZmYiLz48L3N2Zz4=" alt="Youtube">
+                        <p>YouTube</p>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div id="googleMap" style="width:100%;height:400px;">
+                    </div>
+                    <script>
+                    function myMap() {
+                        var mapProp= {
+                          center:new google.maps.LatLng(51.508742,-0.120850),
+                          zoom:5,
+                    };
+                        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                    }
+                    </script>
+                    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+                </li>
+            </ul>
+            <ul class="">
+                <h4>
+                    About Gymder
+                </h4>
+                <li>
+                    <a href="Conditions-of-Use">
+                        Conditions of Use
+                    </a>
+                </li>
+                <li>
+                    <a href="Privacy">
+                        Privacy
+                    </a>
+                </li>
+                <li>
+                    <a href="Notice">
+                        Notice
+                    </a>
+                </li>
+                <li>
+                    <a href="Cookies">
+                        Cookies
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="">
+                <h4>
+                    Help & Contact
+                </h4>                
+                <li>
+                    <a href="Contact-Us">
+                        Contact Us
+                    </a>
+                </li>
+                <li>
+                    <a href="About-Us">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="Careers">
+                        Careers
+                    </a>
+                </li>
+                <li>
+                    <a href="Support">
+                        Support
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <div class="chat-with-us">
+            pop up button
+            chat with us
+        </div>
+    </footer>
+</body>
+</html>
+
+   
